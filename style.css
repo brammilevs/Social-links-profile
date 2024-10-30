@@ -1,0 +1,99 @@
+:root{
+--Green-: hsl(75, 94%, 57%);
+
+--White-: hsl(0, 0%, 100%);
+  
+--Grey-light-700: hsl(0, 0%, 20%);
+  --Grey-normal-800: hsl(0, 0%, 12%);
+  --Grey-dark-900: hsl(0, 0%, 8%);
+
+  --fs-normal:16px;
+    --ff-normal-1:"inter";
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general styling */
+
+body{
+  font-family:var(--ff-normal-1);
+  background-color: var(--Grey-dark-900);
+}
+main{
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  min-height: 100dvh;
+  
+ 
+}
+
+.social-card{
+  display: grid;
+  max-height: 100%;
+  flex-direction: column;
+  background-color: var(--Grey-normal-800);
+  margin: auto;
+  max-width: 350px;
+  align-content: center;
+  justify-items: center;
+  border-radius: 1rem;
+  
+  
+}
+
+.social-card .Jessica{
+width: 4rem;
+border-radius: 50%;
+margin-top: 1.4rem;
+}
+
+/* button styles */
+
+.btn{
+  display: flex;
+  flex-direction: column;
+  margin: 0.3rem;
+  padding:1rem ;
+  margin-bottom: 1.3rem;
+  
+}
+button{
+  margin: 0.5rem;
+  padding: 0.6rem;
+  background-color: var(--Grey-light-700);
+  border: none;
+  min-width: 20em;
+  color:var(--White-);
+  font-family: 'inter', system-ui, ;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* text styling */
+
+h1{
+  color:var(--White-);
+  font-size: 25px;
+  margin-top: 0.8rem;
+
+}
+.location{
+  color: var(--Green-);
+  font-size: 14px;
+  margin-top: 0.6rem;
+  font-weight: 600;
+
+}
+.about{
+  color: var(--White-);
+  font-size: 14px;
+  margin-top: 1.4rem;
+
+}
+
